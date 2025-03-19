@@ -1,0 +1,30 @@
+{
+  "name": "theme-dw",
+  "displayName": "DataWorks Local IDE",
+  "description": "Your local IDE for DataWorks",
+  "categories": [
+    "Themes"
+  ],
+  "version": "1.0.0",
+  "publisher": "vscode",
+  "license": "MIT",
+  "engines": {
+    "vscode": "*"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "DataWorks Light",
+        "label": "DataWorks Light",
+        "uiTheme": "vs",
+        "path": "./themes/light_v3.json"
+      },
+      {
+        "id": "DataWorks Dark",
+        "label": "DataWorks Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark_v3.json"
+      }
+    ]
+  }
+}

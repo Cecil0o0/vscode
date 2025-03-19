@@ -3,15 +3,10 @@
 	"files.trimTrailingWhitespace": true,
 	"files.exclude": {
 		".git": true,
-		".build": true,
 		".profile-oss": true,
 		"**/.DS_Store": true,
 		".vscode-test": true,
-		"cli/target": true,
-		"build/**/*.js.map": true,
-		"build/**/*.js": {
-			"when": "$(basename).ts"
-		}
+		"build/**/*.js.map": true
 	},
 	"files.associations": {
 		"cglicenses.json": "jsonc",
